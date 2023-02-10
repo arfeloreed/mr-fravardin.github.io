@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* home section */
+.nav-container {
+    padding: 3% 15% 2%;
+}
+
+.brand-font {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar-toggler {
+    background: #8D8DAA;
+}
+
+nav ul li a {
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+nav ul li a:hover, .active {
+    background: #8D8DAA;
+    transition: .5s;
+}
+
+.home-container {
+    margin: 15% 23% 3%;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+
+.home-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-content {
+    font-size: 1.2rem;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 3% 0 1%;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+/* media query for mobile devices */
+@media (max-width: 420px) {
+    .home-container {
+        margin: 20% 7%;
+    }
+
+    .profile-pic {
+        width: 80%;
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 660px) {
+    .home-container {
+        margin: 20% 10%;
+    }
+
+    .profile-pic {
+        width: 70%;
+    }
+}
