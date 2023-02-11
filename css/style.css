@@ -57,7 +57,12 @@ nav ul li a:hover, .active {
 /* footer */
 #footer {
     text-align: center;
-    padding: 3% 0 1%;
+    padding: 3.5% 0 1%;
+}
+
+.footer-link {
+    font-size: 1.5rem;
+    margin: 0 1% 1%;
 }
 
 #footer a {
